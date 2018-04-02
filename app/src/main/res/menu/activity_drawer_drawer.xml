@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_animals"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Animals" />
+        <item
+            android:id="@+id/nav_birds"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Birds" />
+        <item
+            android:id="@+id/nav_fruits"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fruits" />
+        <item
+            android:id="@+id/nav_rangoli"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Rangoli" />
+        <item
+            android:id="@+id/nav_scenery"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Scenery" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

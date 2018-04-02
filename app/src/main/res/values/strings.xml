@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Kids Fill Color</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_pick">Pick From Gallery</string>
+    <string name="btn_pick_mul">Pick From Gallery (Multiple)</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Animals</item>
+        <item>Birds</item>
+        <item>Fruits</item>
+        <item>Nature</item>
+        <item>Rangoli</item>
+        <item>Rate us</item>
+        <item>About us</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_eng_cap</item>
+        <item>@drawable/ic_eng_small</item>
+        <item>@drawable/ic_eng_num</item>
+        <item>@drawable/ic_guj</item>
+        <item>@drawable/ic_guj_digit</item>
+        <item>@drawable/ic_rate</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+    <string-array name="animal_ids">
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <item>@drawable/a5</item>
+        <item>@drawable/a6</item>
+        <item>@drawable/a7</item>
+        <item>@drawable/a8</item>
+        <item>@drawable/a9</item>
+        <item>@drawable/a10</item>
+    </string-array>
+
+    <string-array name="bird_ids">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+    </string-array>
+
+    <string-array name="rangoli_ids">
+        <item>@drawable/r1</item>
+        <item>@drawable/r2</item>
+        <item>@drawable/r3</item>
+        <item>@drawable/r4</item>
+        <item>@drawable/r5</item>
+        <item>@drawable/r6</item>
+        <item>@drawable/r7</item>
+        <item>@drawable/r8</item>
+        <item>@drawable/r9</item>
+    </string-array>
+
+    <string-array name="fruits_ids">
+        <item>@drawable/f1</item>
+        <item>@drawable/f2</item>
+        <item>@drawable/f4</item>
+        <item>@drawable/f6</item>
+        <item>@drawable/f7</item>
+    </string-array>
+
+    <string-array name="scenery_ids">
+        <item>@drawable/s1</item>
+        <item>@drawable/s2</item>
+    </string-array>
+
+    <string name="title_activity_image_selector">ImageSelectorActivity</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

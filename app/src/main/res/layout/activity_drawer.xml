@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+        <RelativeLayout
+            android:id="@+id/dashBoard"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/relative1" />
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick Color"
+                android:id="@+id/button"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/button5"
+                android:layout_toStartOf="@+id/button5" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Image"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/b_orange"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/b_red"
+                android:layout_toEndOf="@+id/b_red" />
+
+            <Button
+                android:id="@+id/b_blue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="#0000FF"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/b_green"
+                android:layout_toEndOf="@+id/b_green" />
+
+            <Button
+                android:id="@+id/b_green"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="#00FF00"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/b_red"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="#FF0000"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/b_blue"
+                android:layout_toEndOf="@+id/b_blue" />
+        </RelativeLayout>
+    <include
+        layout="@layout/app_bar_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_drawer"
+        app:menu="@menu/activity_drawer_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
